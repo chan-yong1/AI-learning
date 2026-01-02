@@ -7,5 +7,9 @@
 ### streamlit库学到的东西
 streamlit库是一个高度抽象的库,通过编写python的app.py脚本,实际通过streamlit run app.py命令可以实现前后端交互了,前端布局使用的是顺序执行,高度和宽度都是浏览器和该库自动适应的,布局根据python语句顺序渲染出来,同时streamlit库貌似好像还可以直接制定pandas或者matolptlib的画图就可以再前端展示
 ###这里我设计的逻辑
-这里的PDF和excel文件,其中PDF经过pymudle识别后转换为excel存储在temp文件夹,再通过系统路径制定下载,excel文件则是经过数据分析,然后生成一个DF类型,再将DF转化为json发送API请求
+这里的PDF和excel文件,其中PDF经过pymudle识别后转换为excel存储在temp文件夹,再通过系统路径制定下载,excel文件则是经过数据分析,然后生成一个DF类型,再将DF转化为json发送API请求,这里大模型用的是小米的mimo,免费白嫖的
+<img width="1418" height="806" alt="image" src="https://github.com/user-attachments/assets/ce69f8a3-e4bc-414e-9430-1afd8d4e4c03" />
+<img width="1452" height="759" alt="image" src="https://github.com/user-attachments/assets/b467c647-3e28-44fc-8c99-5a924f15dd16" />
+
+
 
